@@ -195,7 +195,7 @@ input{
     border-radius: 5px;
     cursor: pointer;
 }
-
+/* first media is to make the category, shoe options and backpack options turn into column  */
 @media (max-width:1030px){
     #categories{
  display: flex;
@@ -225,6 +225,7 @@ input{
     flex-direction: column;
 }
 }
+/* the second media is to keep the contains inside the top box remain inside the box */
 @media (max-width: 780px){
    #tv {
     background-color: #FEEAE9;
@@ -248,6 +249,7 @@ input{
     font-size: 15px;
   }
 }
+/* final media to turn the top pink box into a column */
 @media (max-width: 550px){
     #tv {
     background-color: #FEEAE9;
